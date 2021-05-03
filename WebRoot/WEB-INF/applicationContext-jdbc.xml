@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<!--
+	- Application context definition for PetClinic on JDBC.
+-->
+<beans>
+
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location" value="WEB-INF/jdbc.properties" />
+	</bean>
+	<!--
+		Simple local DataSource that works in any environment. This uses the
+		JDBC DriverManager to obtain connections, and does NOT perform
+		connection pooling. Connection pooling is essential to all real-world
+		applications. This definition is good for getting started, as it
+		introduces no dependencies beyond the JDK, but DriverManagerDataSource
+		is not intended for production usage.
+	-->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean>
+	<!--
+		Alternative local DataSource that works in any environment, and offers
+		much better performance. Uses Apache Commons DBCP for connection
+		pooling. See Commons DBCP documentation for the required JAR files.
+		See the PetStore sample application also shipped with Spring, for an
+		example of Commons DBCP usage and the necessary build script.
+		Alternatively you can use another connection pool such as C3P0,
+		similarly configured using Spring. A standalone connection pool such
+		as Commons DBCP is a good choice for use outside an application server
+		environment, including web applications running in a web container
+		without JTA, or integration testing using the org.springframework.test
+		package.
+	-->
+	
+
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<!--
+		========================= BUSINESS OBJECT DEFINITIONS
+		
+	-->
+	<bean id="commonSequenceDao" class="com.tataren.main.dao.CommonSequenceDao"
+		lazy-init="false">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<bean id="basicDao" class="com.tataren.main.service.BasicService$BasicJdbcDao"
+		lazy-init="true">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<bean id="basicService" lazy-init="true">
+		<property name="dao" ref="basicDao" />
+		<property name="commonSequenceDao" ref="commonSequenceDao" />
+	</bean>	
+	
+	<bean id="webUserDao" class="com.tataren.main.dao.md.WebUserDao"
+		lazy-init="true">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<bean id="webUserServiceTarget" class="com.tataren.main.service.user.WebUserServiceImpl"
+		lazy-init="true" parent="basicService">
+		<property name="webUserDao" ref="webUserDao"></property>
+	</bean>
+	<bean id="webUserService"
+		class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+		<property name="transactionManager" ref="transactionManager"></property>
+		<property name="target" ref="webUserServiceTarget"></property>
+		<property name="transactionAttributes">
+			<props>
+				<prop key="get*">PROPAGATION_REQUIRED,readOnly</prop>
+				<prop key="find*">PROPAGATION_REQUIRED,readOnly</prop>
+				<prop key="load*">PROPAGATION_REQUIRED,readOnly</prop>
+				<prop key="store*">PROPAGATION_REQUIRED</prop>
+				<prop key="save*">PROPAGATION_REQUIRED</prop>
+				<prop key="delete*">PROPAGATION_REQUIRED</prop>
+			</props>
+		</property>
+	</bean>
+	
+	
+	
+</beans>

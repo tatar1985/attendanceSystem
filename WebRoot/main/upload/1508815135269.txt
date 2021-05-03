@@ -1,0 +1,675 @@
+﻿# For documentation, see jisupdf
+
+MainWindowBackground = #ffffffff
+EscToExit = false
+ReuseInstance = false
+FixedPageUI [
+	TextColor = #000000
+	BackgroundColor = #ffffff
+	SelectionColor = #f5fc0c
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+]
+EbookUI [
+	FontName = Georgia
+	FontSize = 12.5
+	TextColor = #5f4b32
+	BackgroundColor = #fbf0d9
+	UseFixedPageUI = true
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+]
+ChmUI [
+	UseFixedPageUI = true
+]
+ExternalViewers [
+]
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+PrinterDefaults [
+	PrintScale = shrink
+	PrintAsImage = false
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 0
+	HighlightColor = #ffffffff
+	HighlightPermanent = false
+]
+
+RememberStatePerDocument = true
+UiLanguage = cn
+ShowToolbar = true
+ShowFavorites = false
+AssociateSilently = false
+CheckForUpdates = true
+RememberOpenedFiles = true
+UseSysColors = false
+EnableTeXEnhancements = true
+DefaultDisplayMode = automatic
+DefaultZoom = 100
+WindowState = 2
+WindowPos = 492 210 936 620
+ShowToc = true
+SidebarDx = 40
+TocDy = 0
+ShowStartPage = true
+
+FileStates [
+	[
+		FilePath = C:\Users\Administrator.SDWM-20150623SW\Desktop\机关事业单位养老保险集中参保登记附件\鄂人社发〔2016〕214号鄂尔多斯市人力资源和社会保障局关于开展机关事业单位养老保险集中参保登记工作的通知.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 678
+		PageNo = 4
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\Administrator.SDWM-20150623SW\AppData\Local\Temp\Ultra$$ISO\Hadoop08.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\Administrator.SDWM-20150623SW\AppData\Local\Temp\Ultra$$ISO\Hadoop10.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 381
+		PageNo = 45
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\Administrator.SDWM-20150623SW\AppData\Local\Temp\Ultra$$ISO\Hadoop02.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 456
+		PageNo = 39
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\Administrator.SDWM-20150623SW\AppData\Local\Temp\Ultra$$ISO\Hadoop01.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 381
+		PageNo = 32
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\Administrator.SDWM-20150623SW\Desktop\work\20161116\嘎利兵嘎身份证.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\Administrator.SDWM-20150623SW\Desktop\蒙古G-Mobile cvBS扩容项目交接文档（刘战超）\蒙古G-Mobile cvBS扩容项目交接文档（刘战超）\CSR用户培训文档及操作手册\ZSmart User Manual-Customer Care Volume.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 107
+		PageNo = 26
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\360安全浏览器下载\赵海茹最新论文.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 633
+		PageNo = 56
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = F:\u\Doc\金蝶医疗住院医生工作站用户手册.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 716
+		PageNo = 7
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 2 3 4 7 8 11 12 13 14 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 34 36 37 38 39 40 43 44 45 46 47 49 50 51 52 55 56 57 58 60 61 62 63 64 65
+	]
+	[
+		FilePath = F:\u\Doc\金蝶医疗住院护士工作站用户手册.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 507
+		PageNo = 7
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1 2 5 6 8 10 11 12 15 16 17 18 19 20 22 25 27 28 29 30 32 33 34 35 37 40 42 44 46 48 49 51 53 55 57 59 60 62 63 65 66 68 69 71 72 74 75 76 77 79 81 82 86 87 89 90 92 93 95 96 97 98 100 102 103 104 105 106 107 108 109 111 113 114 116 117 118 120 121 123 124 126 127 129 131 132
+	]
+	[
+		FilePath = F:\u\Doc\金蝶医疗住院收费系统用户手册.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 141
+		PageNo = 41
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 2 3 4 5 7 8 9 10 11 12 13 14 15 16 17 18 21 22 23 24 25 26 27 29 30 31 32 33 34 35 36 37 39 40 41 42 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 65 66 67 68 69 70 71 72 73 74 75 76 77 78 80 81 82 83 84 85 86 88 89 90
+	]
+	[
+		FilePath = F:\u\Doc\金蝶医疗电子病历系统用户手册.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 725
+		PageNo = 27
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 2 3 4 6 7 9 11 12 13 15 16 17 18 19 20 21 23 25 26 27 28 29 30 32 33 34 35 36 37 38 39 41 42 44 46 47 48 49 51 52 53 54 56 57 58 59 61
+	]
+	[
+		FilePath = F:\u\Doc\金蝶医疗门诊医生工作站用户手册.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 451
+		PageNo = 34
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 2 3 4 5 6 9 10 11 12 13 15 16 17 18 19 22 23 24 25 26 27 28 29 30 31 32 33 34 37 38 39 40 41 42 43 44 45 46 47 49 50 51 52 55 56 57 58 61 62 63 64 65 66 68 69 70 71
+	]
+	[
+		FilePath = F:\u\Doc\金蝶医疗门诊收费系统用户手册.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 30
+		PageNo = 20
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 2 3 4 5 6 9 10 11 12 13 15 16 17 18 19 22 23 24 25 26 27 28 29 30 31 34 35 37 38 40 41 44 45 46 47 48 49 51 52 54 55 57 58 61 62 64 65
+	]
+	[
+		FilePath = F:\u\Doc\金蝶医疗门诊配发药系统用户手册.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 575
+		PageNo = 7
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 2 3 4 5 8 9 10 11 12 14 15 16 17 18 21 23 25 26 27 30 31 33 34 36 37 39 40 43 44 46 47 49 50
+	]
+	[
+		FilePath = F:\u\Doc\金蝶医疗住院配发药系统用户手册.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 2 3 4 5 7 9 11 12 13 15 16 17 18 19 20 21 22 25 27 28 29 31 32 33 35 36 37 39 40 41 44 45 46 48 49 50 52 53 54 56 57 58 60 61 62 65 66 67 69 70 71 72 73 74 75 76 77 78 79 82 83 85 86 87 89 90 91 93 94 95 98 99 100 102 103 104 106 107 108 110 111 112
+	]
+	[
+		FilePath = F:\u\Doc\金蝶医疗门诊挂号系统用户手册.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 672
+		PageNo = 13
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 2 3 4 5 6 9 10 11 12 13 15 16 17 18 19 22 23 26 27 28 29 31 32 33 34 37 38 39 40 41 42 44 45 46 47 48 51 52 53 55 56 57 58 59
+	]
+	[
+		FilePath = E:\tools\Myeclipse-2014-GA-破解文件\激活教程(2014GA).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 237
+		PageNo = 3
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\for jia\相似死因分析\非法行医致死案的死因分析讨论.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 250
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\for jia\医疗损害技术鉴定中过错参与度\医疗损害中的因果关系和参与度浅析.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 396
+		PageNo = 3
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\for jia\医疗损害技术鉴定中过错参与度\医疗损害技术鉴定中过错参与度影响因子实证研究.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 37
+		PageNo = 3
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\for jia\相似案件判决书\非法行医（判三缓五）.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\for jia\相似案件判决书\非法行医（有期徒刑三年）.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\新建文件夹\原告人刘某甲、冯某某、于某某、刘某乙提起附带民事诉讼一案.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\新建文件夹\被告人尉某犯非法行医罪一案.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\新建文件夹\被告人秦玉花犯非法行医罪一案.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = H:\新建文件夹\被告人马永义犯非法行医罪一案.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\Administrator.SDWM-20150623SW\Desktop\农牧民产品交易平台需求方案.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\Administrator.SDWM-20150623SW\Desktop\嘎利兵嘎身份证.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 604 1222
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\Administrator.SDWM-20150623SW\AppData\Local\Temp\Ultra$$ISO\云计算之前世今生与未来-导论.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 264
+		PageNo = 12
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 492 210 936 620
+		ShowToc = false
+		SidebarDx = 40
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+]
+TimeOfLastUpdateCheck = 0 0
+OpenCountWeek = 311
+
+-----------------------------131341185424995--
